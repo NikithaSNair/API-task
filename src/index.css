@@ -5,13 +5,13 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #050521;
+  color: rgba(13, 10, 34, 0.87);
+  background-color: #06064d;
 
-  --background-gradient: linear-gradient(135deg, #1a1a34 0%, #3730a3 100%);
-  --container-bg: rgba(29, 29, 41, 0.92);
-  --font-color: #9bb7e1;
-  --accent: #979bbc;
+  --background-gradient: linear-gradient(135deg, #17172b 0%, #120f31 100%);
+  --container-bg: rgba(9, 9, 53, 0.92);
+  --font-color: #1c4783;
+  --accent: #2a3ffe;
   --card-radius: 18px;
   --transition: background 0.3s, color 0.3s;
 }
@@ -20,7 +20,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: #2980ff;
+  background: linear-gradient(135deg, #270435 0%, #120f31 100%);
   color: var(--font-color);
   font-family: var(--system-ui);
   display: flex;
@@ -35,7 +35,7 @@ body {
 .center-container {
   background: var(--container-bg);
   border-radius: var(--card-radius);
-  box-shadow: 0 4px 32px rgba(0,0,0,0.24);
+  box-shadow: 0 4px 32px rgba(238, 238, 238, 0.24);
   padding: 2.5rem 2rem 2rem 2rem;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ body {
 
 
 .profile-pic-wrapper {
-  background: conic-gradient(from 0deg, var(--accent), #3a3a79 60%, var(--accent) 100%);
+  background: conic-gradient(from 0deg, var(--accent), #0505e1 60%, var(--accent) 100%);
   border-radius: 50%;
   padding: 6px;
   display: flex;
@@ -68,7 +68,7 @@ body {
   object-fit: cover;
   border: 4px solid var(--container-bg);
   box-shadow: 0 2px 8px rgba(83, 52, 52, 0.12);
-  background: #222;
+  background: #b9b9b9;
 }
 
 
@@ -98,8 +98,8 @@ button, .button {
   margin-top: 1rem;
 }
 button:hover, .button:hover {
-  border-color: #646cff;
-  background: #3730a3;
+  border-color: #2129c7;
+  background: #2a1fcc;
 }
 button:focus,
 button:focus-visible {
@@ -108,11 +108,11 @@ button:focus-visible {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #0e103f;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #0a0b25;
 }
 
 
@@ -133,15 +133,15 @@ a:hover {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
-    --background-gradient: linear-gradient(135deg, #ffffff 0%, #b3b3e6 100%);
-    --container-bg: rgba(255,255,255,0.92);
-    --font-color: #213547;
-    --accent: #646cff;
+    color: #07011c;
+    background-color: #212ec7;
+    --background-gradient: linear-gradient(135deg, #8c1e1e 0%, #b3b3e6 100%);
+    --container-bg: rgba(26, 31, 56, 0.92);
+    --font-color: #eaebeb;
+    --accent: #191921;
   }
   a:hover {
-    color: #747bff;
+    color: #2e3394;
   }
   button, .button {
     background-color: var(--accent);

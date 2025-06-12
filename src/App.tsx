@@ -56,8 +56,8 @@ export default function App() {
             flex: 1,
             padding: "0.6em 1em",
             borderRadius: "8px",
-            border: "1px solid #3730a3",
-            background: "rgba(36,36,36,0.8)",
+            border: "1px solidrgb(25, 23, 59)",
+            background: "rgba(36, 39, 52, 0.8)",
             color: "#fafafa",
             fontSize: "1em",
           }}
