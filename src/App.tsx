@@ -49,7 +49,7 @@ export default function App() {
 
   return (
     <div className="center-container">
-      <h2>GitHub User Search</h2>
+      <h2>Peek-A-Git</h2>
       <div style={{ width: "100%", display: "flex", gap: "0.5em", marginBottom: "1.5em" }}>
         <input
           style={{
