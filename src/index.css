@@ -12,6 +12,7 @@
   --container-bg: rgba(9, 9, 53, 0.92);
   --font-color: #1c4783;
   --accent: #2a3ffe;
+
   --card-radius: 18px;
   --transition: background 0.3s, color 0.3s;
 }
@@ -47,7 +48,7 @@ body {
 
 
 .profile-pic-wrapper {
-  background: conic-gradient(from 0deg, var(--accent), #0505e1 60%, var(--accent) 100%);
+  background: conic-gradient(from 0deg, var(--accent), #24242c 60%, var(--accent) 100%);
   border-radius: 50%;
   padding: 6px;
   display: flex;
