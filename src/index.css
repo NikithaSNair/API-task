@@ -10,7 +10,7 @@
 
   --background-gradient: linear-gradient(135deg, #17172b 0%, #120f31 100%);
   --container-bg: rgba(9, 9, 53, 0.92);
-  --font-color: #1c4783;
+  --font-color: #ffffff;
   --accent: #2e314e;
 
   --card-radius: 18px;
@@ -48,7 +48,7 @@ body {
 
 
 .profile-pic-wrapper {
-  background: conic-gradient(from 0deg, var(--accent), #24242c 60%, var(--accent) 100%);
+  background: conic-gradient(from 0deg, var(--accent), #31315e 60%, var(--accent) 100%);
   border-radius: 50%;
   padding: 6px;
   display: flex;
@@ -99,7 +99,7 @@ button, .button {
   margin-top: 1rem;
 }
 button:hover, .button:hover {
-  border-color: #2129c7;
+  border-color: #222330;
   background: #2a1fcc;
 }
 button:focus,
@@ -138,7 +138,7 @@ a:hover {
     background-color: #212ec7;
     --background-gradient: linear-gradient(135deg, #8c1e1e 0%, #b3b3e6 100%);
     --container-bg: rgba(26, 31, 56, 0.92);
-    --font-color: #ffffff;
+    --font-color: #eaebeb;
     --accent: #191921;
   }
   a:hover {
