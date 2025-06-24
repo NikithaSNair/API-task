@@ -11,7 +11,7 @@
   --background-gradient: linear-gradient(135deg, #17172b 0%, #120f31 100%);
   --container-bg: rgba(9, 9, 53, 0.92);
   --font-color: #1c4783;
-  --accent: #2a3ffe;
+  --accent: #2e314e;
 
   --card-radius: 18px;
   --transition: background 0.3s, color 0.3s;
@@ -138,7 +138,7 @@ a:hover {
     background-color: #212ec7;
     --background-gradient: linear-gradient(135deg, #8c1e1e 0%, #b3b3e6 100%);
     --container-bg: rgba(26, 31, 56, 0.92);
-    --font-color: #eaebeb;
+    --font-color: #ffffff;
     --accent: #191921;
   }
   a:hover {
